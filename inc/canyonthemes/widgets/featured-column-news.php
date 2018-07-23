@@ -50,7 +50,7 @@ if (!class_exists('GlowMag_Featured_Column_News_Widget')) {
                
                 $category       = get_category( $catid );
                
-                if( $catid > 0 ) 
+                if($catid != -1)
                 {
                     
                     $count = $category->category_count;

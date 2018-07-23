@@ -30,7 +30,14 @@ if (!class_exists('GlowMag_Slider_Widget')) {
                 $catid         = absint($instance['cat_id']);
                 $no_of_post    = absint($instance['no_of_post']);
                 $category      = get_category( $catid );
+               if($catid !=-1)
+               {
                 $count         = $category->category_count;
+               }
+               else
+               {
+                $count=0;
+               }
                 echo $args['before_widget'];
 
                 if ($count > 0) {

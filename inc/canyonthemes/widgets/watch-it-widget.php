@@ -36,8 +36,15 @@ class GlowMag_Watch_It_Widget extends WP_Widget{
         
           $category  = get_category( $catid );
 
-          $count     = $category->category_count;
-       
+         if($catid !=-1)
+           {
+            $count         = $category->category_count;
+           }
+           else
+           {
+            $count=0;
+           }
+   
           if( !empty( $title ) && $count > 0 ) 
           {
            ?>

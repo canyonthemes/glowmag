@@ -347,14 +347,6 @@ require get_template_directory() . '/inc/library/breadcrumbs/breadcrumbs.php';
 require get_template_directory() . '/inc/canyonthemes/hooks/dynamic-css.php';
 
 
-/**
- * Load about.
- */
-if ( is_admin() ) {
-   
-include get_template_directory() . '/inc/canyonthemes/about/about.php';
-include get_template_directory() . '/inc/canyonthemes/about/class-about.php';
-}
 
 /**
  * Load tgm for this theme
@@ -369,6 +361,18 @@ require get_template_directory() . '/inc/canyonthemes/hooks/tgm.php';
  * Dummy File Load 
 */
 require get_template_directory() . '/inc/canyonthemes/dummy-data/dummy-file.php';
+
+
+/**
+ * Load about.
+ */
+if ( is_admin() ) {
+   
+include get_template_directory() . '/inc/canyonthemes/about/about.php';
+include get_template_directory() . '/inc/canyonthemes/about/class-about.php';
+}
+
+
 
 /**
  * Load Jetpack compatibility file.

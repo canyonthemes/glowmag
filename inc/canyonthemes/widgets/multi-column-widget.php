@@ -40,10 +40,20 @@ if (!class_exists('Multi_Column_News_Widget')) {
                 $colmn_excerpt_length = absint( $instance['colmn_excerpt_length'] );
                 $no_of_post           = absint($instance['no_of_post']);
                 $category             = get_category( $catid );
-                $count                = $category->category_count;
+              
+                   if($catid !=-1)
+                   {
+                    $count         = $category->category_count;
+                   }
+                   else
+                   {
+                    $count=0;
+                   }
+               
                 echo $args['before_widget'];
 
                 if ($count > 0) {
+                    
                     ?>
                  
                <!--popular post-->
