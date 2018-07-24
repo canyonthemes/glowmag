@@ -74,6 +74,7 @@ function glowmag_after_import_setup() {
         'social-link'   => 'social',
        
     );
+    
 
     if ( ! empty( $menu_location_details ) ) {
         $navigation_settings = array();
