@@ -11,7 +11,7 @@ if (!class_exists('GlowMag_Featured_Column_News_Widget')) {
 
             $defaults = array(
                 'title'             => esc_html__( 'Latest News','glowmag' ),
-                'cat_id'            => '',
+                'cat_id'            => 1,
                 'view_all_text'     => esc_html__( 'View All', 'glowmag' ),
                 'excerpt_length'    => 20,
                 'post_number'       => 5,

@@ -6,7 +6,7 @@ class GlowMag_Watch_It_Widget extends WP_Widget{
         {
             $defaults = array(
                 'title'       =>  esc_html__('DONT MISS IT', 'glowmag'),
-                'cat_id'      => 0,
+                'cat_id'      => 1,
                 'no_of_post'  => 4,
                 'show_date'   =>1
 

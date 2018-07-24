@@ -7,7 +7,7 @@ if (!class_exists('GlowMag_Slider_Widget')) {
         {
 
             $defaults = array(
-                'cat_id'     => 0,
+                'cat_id'     => 1,
                 'no_of_post' => '4',
             );
             return $defaults;

@@ -69,9 +69,10 @@ function glowmag_after_import_setup() {
 
     // Assign navigation menu locations.
     $menu_location_details = array(
-        'primary'      => 'Primary',
-        'social-link'  => 'Social',
-        'top-header' =>'Primary Menu',
+        'primary'       => 'primary',
+        'top-header'    =>'primary-menu',
+        'social-link'   => 'social',
+       
     );
 
     if ( ! empty( $menu_location_details ) ) {

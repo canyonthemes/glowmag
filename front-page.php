@@ -29,8 +29,11 @@ if ( !is_home() )
 								do_action( 'glowmag_braeking_news' );
 
 								// loading home page widget section
+							if ( is_active_sidebar( 'home-page' ) )
+				            {	
 								dynamic_sidebar( 'home-page' );
 
+						    }
 								?>
 						</div>
 					</div>
