@@ -108,7 +108,7 @@ if (!function_exists('glowmag_go_to_top' )) :
     if( $go_to_top == true ){
             ?>
             <a id="toTop" class="go-to-top" href="#" title="<?php esc_attr_e('Go to Top', 'glowmag'); ?>">
-                    <span><?php echo esc_html_e('', 'glowmag');?> <i class="fa fa-arrow-up"></i></span>
+                    <span> <i class="fa fa-arrow-up"></i></span>
             </a>
         <?php
     }

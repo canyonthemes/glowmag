@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,10 @@ GlowMag is a stylish and powerful theme crafted for magazines, newspapers or per
 GlowMag includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.0.2 - July 26 2018 =
+* Fixed theme uri issues
+
 = 1.0.1 - July 20 2018 =
 * Fixed Some minor css issues
 * Theme info page added
@@ -39,7 +43,7 @@ GlowMag includes support for Infinite Scroll in Jetpack.
 
 == Theme License ==
 
-GlowMag WordPress Theme, Copyright 2017 Canyon Themes
+GlowMag WordPress Theme, Copyright 2018 Canyon Themes
 GlowMag is distributed under the terms of the GNU General Public License v2
 
 == Credits ==
